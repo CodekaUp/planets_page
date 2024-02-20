@@ -1,0 +1,113 @@
+body
+{
+    background-color: white;
+}
+div
+{
+    float: left;
+    margin-right: 15px;
+    border-radius: 70px;
+    width: 70px;
+    padding: 30px;
+    height: 70px;
+    background-size: 92px 92px ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.planets
+{
+    width: 1160px;
+    height: 135px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mercury
+{
+    background-image: url("image/mercury_nocolor.png");
+    box-shadow: 0 0 15px #747676;
+}
+.mercury:hover
+{
+    background-image: url("image/mercury.png");
+    transition: 0.5;
+    box-shadow: 0 0 25px #363636;
+}
+.venus
+{
+    background-image: url("image/venus_nocolor.png");
+    box-shadow: 0 0 15px #747676;
+}
+.venus:hover
+{
+    background-image: url("image/venus.png"); 
+    transition: 0.5;
+    box-shadow: 0 0 25px #BB6100;
+}
+.planet-earth
+{
+    background-image: url("image/planet-earth_ncolor.png");
+    box-shadow: 0 0 15px #747676;
+}
+.planet-earth:hover
+{
+    background-image: url("image/planet-earth.png");  
+    transition: 0.5;  
+    box-shadow: 0 0 25px #85C23D;
+}
+.mars
+{
+    background-image: url("image/mars_nocolor.png");
+    box-shadow: 0 0 15px #747676;
+}
+.mars:hover
+{
+    background-image: url("image/mars.png");  
+    transition: 0.5;  
+    box-shadow: 0 0 25px #E84D1B;
+}
+.jupiter
+{
+    background-image: url("image/jupiter_nocolor.png");
+    box-shadow: 0 0 15px #747676;
+}
+.jupiter:hover
+{
+    background-image: url("image/jupiter.png");
+    transition: 0.5;
+    box-shadow: 0 0 25px #FFAE2A;
+}
+.saturn
+{
+    background-image: url("image/saturn_nocolor.png");
+    box-shadow: 0 0 15px #747676;
+}
+.saturn:hover
+{
+    background-image: url("image/saturn.png");
+    transition: 0.5;
+    box-shadow: 0 0 25px #FFDE24;
+}
+.uranus
+{
+    background-image: url("image/uranus_nocolor.png");
+    box-shadow: 0 0 15px #747676;
+}
+.uranus:hover
+{
+    background-image: url("image/uranus.png");
+    transition: 0.5;
+    box-shadow: 0 0 25px #24CDD8;
+}
+.neptune
+{
+    background-image: url("image/neptune_nocolor.png");
+    box-shadow: 0 0 15px #747676;
+}   
+.neptune:hover
+{
+    background-image: url("image/neptune.png");
+    transition: 0.5;
+    box-shadow: 0 0 25px #069FFC;
+}
